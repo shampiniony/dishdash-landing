@@ -488,7 +488,7 @@
   resolved "https://registry.yarnpkg.com/@vue/shared/-/shared-3.4.27.tgz#f05e3cd107d157354bb4ae7a7b5fc9cf73c63b50"
   integrity sha512-DL3NmY2OFlqmYYrzp39yi3LDkKxa5vZVwxWdQ3rG0ekuWscHraeIbnI8t+aZK7qhYqEqWKTUdijadunb9pnrgA==
 
-"@vueuse/core@^10.5.0":
+"@vueuse/core@^10.11.0", "@vueuse/core@^10.5.0":
   version "10.11.0"
   resolved "https://registry.yarnpkg.com/@vueuse/core/-/core-10.11.0.tgz#b042585a8bf98bb29c177b33999bd0e3fcd9e65d"
   integrity sha512-x3sD4Mkm7PJ+pcq3HX8PLPBadXCAlSDR/waK87dz0gQE+qJnaaFhc/dZVfJz+IUYzTMVGum2QlR7ImiJQN4s6g==
@@ -715,6 +715,24 @@ electron-to-chromium@^1.4.796:
   version "1.4.796"
   resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.796.tgz#48dd6ff634b7f7df6313bd27aaa713f3af4a2b29"
   integrity sha512-NglN/xprcM+SHD2XCli4oC6bWe6kHoytcyLKCWXmRL854F0qhPhaYgUswUsglnPxYaNQIg2uMY4BvaomIf3kLA==
+
+embla-carousel-reactive-utils@8.1.5:
+  version "8.1.5"
+  resolved "https://registry.yarnpkg.com/embla-carousel-reactive-utils/-/embla-carousel-reactive-utils-8.1.5.tgz#87475b9478a60c92be883bccecebbf4f180796f9"
+  integrity sha512-76uZTrSaEGGta+qpiGkMFlLK0I7N04TdjZ2obrBhyggYIFDWlxk1CriIEmt2lisLNsa1IYXM85kr863JoCMSyg==
+
+embla-carousel-vue@^8.1.5:
+  version "8.1.5"
+  resolved "https://registry.yarnpkg.com/embla-carousel-vue/-/embla-carousel-vue-8.1.5.tgz#9b0ade81d60a03ec00ae7b496182a22840d67e78"
+  integrity sha512-7R1gQoAy4xwTxE2hNd9yjHWWWDfUDBBcwljX2pP+uh6MnyVp8fUtMUBeQsXfxA1a9lJqKbPVvJTeHiOlfcednA==
+  dependencies:
+    embla-carousel "8.1.5"
+    embla-carousel-reactive-utils "8.1.5"
+
+embla-carousel@8.1.5:
+  version "8.1.5"
+  resolved "https://registry.yarnpkg.com/embla-carousel/-/embla-carousel-8.1.5.tgz#d958083cb16f19e7412bf8f93fa125b21311ac93"
+  integrity sha512-R6xTf7cNdR2UTNM6/yUPZlJFRmZSogMiRjJ5vXHO65II5MoUlrVYUAP0fHQei/py82Vf15lj+WI+QdhnzBxA2g==
 
 emoji-regex@^8.0.0:
   version "8.0.0"
@@ -1423,6 +1441,11 @@ vue-tsc@^2.0.6:
     "@volar/typescript" "~2.3.0-alpha.15"
     "@vue/language-core" "2.0.21"
     semver "^7.5.4"
+
+vue3-touch-events@^4.1.8:
+  version "4.1.8"
+  resolved "https://registry.yarnpkg.com/vue3-touch-events/-/vue3-touch-events-4.1.8.tgz#0cc7389a9fc2ecc6b34095b27d7174d5d3edc300"
+  integrity sha512-8Zs0mj5k/7R579JHsc5w1V2IqAkNlz2gJs18bRV4T5WyCMfd5sBf2ESJ2xR8z+n7ypgK8fQO5MmDOPal0Evf3Q==
 
 vue@^3.4.21:
   version "3.4.27"
