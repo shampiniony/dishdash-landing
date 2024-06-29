@@ -1,6 +1,6 @@
 <template>
   <div ref="animatedDiv" class="w-full h-screen flex flex-col justify-center text-white fade-in">
-    <div class="flex h-4/5 flex-col justify-around items-center text-center">
+    <div class="-translate-y-10 flex h-4/5 flex-col justify-around items-center text-center">
       <div class="space-y-4">
         <h1 class="text-5xl text-white">DishDash</h1>
         <p>Сервис быстрого поиска места<br /> для встречи с друзьями</p>
@@ -8,7 +8,7 @@
       <img src="./assets/radar.png" class="h-64 md:h-96" />
       <p>Заполните форму,<br /> чтобы протестировать бета-версию</p>
       <a href="https://forms.gle/S2JPfT3kVrbNDGqNA">
-        <Button size="lg" variant="secondary">Оставить заявку</Button>
+        <Button class="rounded-3xl" size="lg" variant="secondary">Оставить заявку</Button>
       </a>
     </div>
   </div>

@@ -25,7 +25,7 @@ const people: IPerson[] = [{
 },
 {
   name: "Вика",
-  surname: "Кулушева",
+  surname: "Кулешова",
   image: vika,
   telegram: "https://t.me/vktorriaa",
     role: "Design"

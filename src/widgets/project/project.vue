@@ -1,5 +1,5 @@
 <template>
-  <div class="min-h-screen w-full rounded-3xl bg-white py-20 -translate-y-4">
+  <div class="min-h-screen w-full rounded-3xl bg-white py-10 md:py-20 -translate-y-4">
     <div class="flex gap-y-8 flex-col max-w-[600px] w-[90%] mx-auto items-center">
       <div ref="aboutProject" class="fade-in"><AboutProject/></div>
       <AboutPossibilities/>
