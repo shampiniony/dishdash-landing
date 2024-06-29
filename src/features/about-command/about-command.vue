@@ -60,7 +60,7 @@ const people: IPerson[] = [{
     }">
       <CarouselContent class="-ml-1">
         <CarouselItem v-for="(person, index) in people" :key="index" class="pl-1 pt-3 basis-[75%] flex flex-cols justify-center">
-          <label class="absolute bg-`white rounded-full mx-auto -translate-y-2 px-2 py-1">{{ person.role }}</label>
+          <label class="absolute bg-white rounded-full mx-auto -translate-y-2 px-2 py-1">{{ person.role }}</label>
           <div class="p-1">
             <Card>
               <Person
