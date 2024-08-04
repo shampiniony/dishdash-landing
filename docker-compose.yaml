@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  frontend:
+    ports:
+      - ${NGINX_PORT}:${NGINX_PORT}
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        NGINX_PORT: ${NGINX_PORT}
+    environment:
+      - NGINX_PORT=${NGINX_PORT}
