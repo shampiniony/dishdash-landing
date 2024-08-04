@@ -3,11 +3,11 @@ version: '3.8'
 services:
   frontend:
     ports:
-      - ${NGINX_PORT}:${NGINX_PORT}
+      - ${NGINX_PORT-3000}:${NGINX_PORT-3000}
     build:
       context: .
       dockerfile: Dockerfile
       args:
-        NGINX_PORT: ${NGINX_PORT}
+        NGINX_PORT: ${NGINX_PORT:-3000}
     environment:
-      - NGINX_PORT=${NGINX_PORT}
+      - NGINX_PORT=${NGINX_PORT-3000}
